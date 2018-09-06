@@ -1,0 +1,45 @@
+.navbar-container {
+    background-color: #e9573f;
+    display: flex;
+    align-content: center;
+}
+
+.navbar-content {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.searchbar {
+    float: left;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+::placeholder {
+    color: #e9573f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+li {
+    display: inline;
+}
+.gem-list {
+    padding: 1rem;
+}
+
+.gem-item {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 1rem;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif, monospace;
+}
+
+#button-holder {
+    position: relative;
+    right: 30px;
+    top: 0px;
+}
